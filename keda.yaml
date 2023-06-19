@@ -7,7 +7,7 @@ metadata:
     deploymentName: selenium-node-chrome
 spec:
   minReplicaCount: 1
-  maxReplicaCount: 5
+  maxReplicaCount: 3
   scaleTargetRef:
     name: selenium-node-chrome
   triggers:
